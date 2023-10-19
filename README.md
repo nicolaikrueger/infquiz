@@ -1,7 +1,6 @@
-# Welcome to streamlit
+# Informatik-Quiz
 
-This is the app you get when you run `streamlit hello`, extracted as its own app.
+Dies ist ein Quiz für die Einführungsveranstaltungen Informatik / Wirtschaftsinformatik.
 
-Edit [Hello.py](./Hello.py) to customize this app to your heart's desire. ❤️
-
-Check it out on [Streamlit Community Cloud](https://st-hello-app.streamlit.app/)
+## Ablauf
+Es gibt insgesamt 11 Level. Pro Level ist ein Rätsel zu lösen. Die Lösung ist das Passwort für das nächste Level.
