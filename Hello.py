@@ -76,3 +76,16 @@ else:
           if st.session_state.wrong_attempts >= 2:
               if st.button("Zeige Lösung"):
                   st.info(f"Die richtige Lösung ist: {riddles[st.session_state.current_riddle]['answer']}")
+
+
+footer="""<style>
+.footer {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 9px;
+}
+</style>
+<div class="footer">© 2023 Nicolai Krüger</div>
+"""
+st.markdown(footer, unsafe_allow_html=True)
