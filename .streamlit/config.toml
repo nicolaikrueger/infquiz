@@ -1,2 +1,6 @@
 [browser]
 title = "Inf.-Quiz"
+
+[browser]
+gatherUsageStats = false
+disablePromoteStreamlitButton = true
